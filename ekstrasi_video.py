@@ -4,7 +4,7 @@ import glob
 import subprocess  # Library bawaan Python (TIDAK perlu instal)
 
 # 1. MENCARI SEMUA FILE VIDEO DI FOLDER
-daftar_video = glob.glob("*.mp4")
+daftar_video = glob.glob("**/*.mp4", recursive=True)
 
 if len(daftar_video) == 0:
     print("Tidak ditemukan file .mp4 di folder proyek ini.")
