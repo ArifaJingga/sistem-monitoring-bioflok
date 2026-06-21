@@ -1,0 +1,7 @@
+# Mengabaikan file rahasia
+.env
+__pycache__/
+
+# Mengabaikan folder data berukuran besar
+rekaman_sore.mp4
+Dataset_Gambar/
